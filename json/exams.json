@@ -1,0 +1,151 @@
+[{
+        "id": "5e676dad680a3fad5df6226f",
+        "teacher_name": "وافي مشاري",
+        "subject_name": "علم نفس",
+        "grade": "الثالث الثانوى",
+        "chapter": "الباب الاول",
+        "sectionOfChapter": "الفصل الثانى",
+        "sType": "طلاب فائقين",
+        "examPoints": 15
+    },
+    {
+        "id": "5e676dad8f29f64d18213ce4",
+        "teacher_name": "سراج مشاري",
+        "subject_name": "فلسفة",
+        "grade": "الثالث الثانوى",
+        "chapter": "الباب السابع",
+        "sectionOfChapter": "الفصل السادس",
+        "sType": "طلاب فائقين",
+        "examPoints": 30
+    },
+    {
+        "id": "5e676dad6699726cad9a16f5",
+        "teacher_name": "مروان نيار",
+        "subject_name": "رياضيات تطبيقية",
+        "grade": "الثانى الثانوى",
+        "chapter": "الباب الثالث",
+        "sectionOfChapter": "الفصل الثالث",
+        "sType": "طلاب عام",
+        "examPoints": 40
+    },
+    {
+        "id": "5e676dad9dec8d7670d63520",
+        "teacher_name": "داني فواز",
+        "subject_name": "احياء",
+        "grade": "الثانى الثانوى",
+        "chapter": "الباب السابع",
+        "sectionOfChapter": "الفصل الخامس",
+        "sType": "طلاب عام",
+        "examPoints": 15
+    },
+    {
+        "id": "5e676dad41481b24e9f3da23",
+        "teacher_name": "آدم زهير",
+        "subject_name": "لغة فرنسية",
+        "grade": "الثالث الثانوى",
+        "chapter": "الباب الاول",
+        "sectionOfChapter": "الفصل السادس",
+        "sType": "طلاب فائقين",
+        "examPoints": 50
+    },
+    {
+        "id": "5e676dadc2df765a67610023",
+        "teacher_name": "ادهم وافي",
+        "subject_name": "احصاء",
+        "grade": "الاول الثانوى",
+        "chapter": "الباب الثانى",
+        "sectionOfChapter": "الفصل السابع",
+        "sType": "طلاب فائقين",
+        "examPoints": 50
+    },
+    {
+        "id": "5e676dad11ae9b6067241594",
+        "teacher_name": "راني كاظم",
+        "subject_name": "فلسفة",
+        "grade": "الاول الثانوى",
+        "chapter": "الباب السادس",
+        "sectionOfChapter": "الفصل السابع",
+        "sType": "طلاب عام",
+        "examPoints": 30
+    },
+    {
+        "id": "5e676dad70e3a28b764adb03",
+        "teacher_name": "فواز لبيد",
+        "subject_name": "فيزياء",
+        "grade": "الاول الثانوى",
+        "chapter": "الباب الثانى",
+        "sectionOfChapter": "الفصل السابع",
+        "sType": "طلاب عام",
+        "examPoints": 15
+    },
+    {
+        "id": "5e676dad861f7d436a9210ca",
+        "teacher_name": "مصطفي سلاف",
+        "subject_name": "رياضيات بحتة",
+        "grade": "الثالث الثانوى",
+        "chapter": "الباب السابع",
+        "sectionOfChapter": "الفصل السادس",
+        "sType": "طلاب فائقين",
+        "examPoints": 30
+    },
+    {
+        "id": "5e676dada3dc6173e3b61908",
+        "teacher_name": "اوس إياس",
+        "subject_name": "جولةجيا",
+        "grade": "الاول الثانوى",
+        "chapter": "الباب الثالث",
+        "sectionOfChapter": "الفصل السادس",
+        "sType": "طلاب فائقين",
+        "examPoints": 10
+    },
+    {
+        "id": "5e676dad2c6f708983b69bde",
+        "teacher_name": "حمزه سراج",
+        "subject_name": "جولةجيا",
+        "grade": "الثالث الثانوى",
+        "chapter": "الباب الخامس",
+        "sectionOfChapter": "الفصل الثالث",
+        "sType": "طلاب فائقين",
+        "examPoints": 25
+    },
+    {
+        "id": "5e676dadc6d2311c0235623c",
+        "teacher_name": "مصطفي براء",
+        "subject_name": "فلسفة",
+        "grade": "الاول الثانوى",
+        "chapter": "الباب السادس",
+        "sectionOfChapter": "الفصل الرابع",
+        "sType": "طلاب فائقين",
+        "examPoints": 45
+    },
+    {
+        "id": "5e676dade9889feb830ce0b3",
+        "teacher_name": "معويه وافي",
+        "subject_name": "لغة فرنسية",
+        "grade": "الثانى الثانوى",
+        "chapter": "الباب الثالث",
+        "sectionOfChapter": "الفصل الاول",
+        "sType": "طلاب فائقين",
+        "examPoints": 50
+    },
+    {
+        "id": "5e676dad4a688d64f7dfe85e",
+        "teacher_name": "عادل باهر",
+        "subject_name": "هندسة فراغية",
+        "grade": "الاول الثانوى",
+        "chapter": "الباب الاول",
+        "sectionOfChapter": "الفصل الاول",
+        "sType": "طلاب فائقين",
+        "examPoints": 45
+    },
+    {
+        "id": "5e676dad5158e9f1eb111e63",
+        "teacher_name": "فؤاد بشر",
+        "subject_name": "لغة المانية",
+        "grade": "الثانى الثانوى",
+        "chapter": "الباب الخامس",
+        "sectionOfChapter": "الفصل الخامس",
+        "sType": "طلاب عام",
+        "examPoints": 20
+    }
+]

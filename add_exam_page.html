@@ -18,6 +18,7 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="vendor/datetimepicker-master/jquery.datetimepicker.css" />
 
   <style>
 
@@ -251,9 +252,18 @@
                   <option value="2">فائقين</option>
                 </select>
               </form>
+
             </div>
+
             <!-- End of selecting menues -->
           </div>
+          <div class="row justify-content-center">
+
+            <input type="text" class="col-sm-8 col-md-6 my-3" name="date" id="datetimepicker"
+              placeholder="الوقت و التاريخ" />
+
+          </div>
+
           <div class="container-fluid my-3">
             <div class="row">
               <button type="button" class="btn btn-success btn-add-student">
@@ -306,7 +316,7 @@
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/Popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -314,11 +324,20 @@
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="vendor/datetimepicker-master/build/jquery.datetimepicker.full.min.js"></script>
 
-    <!-- Page level plugins -->
+    <script>
+      /*jslint browser:true*/
+      /*global jQuery, document*/
 
-    <!-- Page level custom scripts -->
+      jQuery(document).ready(function () {
+        'use strict';
 
+        $('#datetimepicker').datetimepicker();
+        $.datetimepicker.setLocale('ar');
+      });
+    </script>
 </body>
 
 </html>

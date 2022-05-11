@@ -1,0 +1,300 @@
+/* General Set-up  */
+* {
+    /* text-align: right; */
+}
+
+body {
+    /* min-height: 5000px; */
+}
+
+.btn-booklet {
+    background-color: ;
+}
+
+/* section #1 */
+
+.cover {
+    height: 80vh;
+    background-image: url(../assets/Kids-Mobile-Video-Screens-Vs-TV2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    color: white;
+
+    padding-top: 2vh;
+}
+
+.cover .tb {
+    font-size: 53px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cover .h3 {
+    font-size: 23px;
+}
+
+.cover img {
+    margin-top: 40px;
+    height: 135px;
+    width: auto;
+}
+
+/* End of section #1 */
+
+/* section #2 */
+.s-2 img {
+    text-align: center;
+}
+
+.s-2 {
+    min-height: 30vh;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.s-2 .line1 {
+    font-size: 23px;
+}
+
+.s-2 .line2 {
+    font-size: 35px;
+}
+
+.s-2 img {
+    /* text-align: left; */
+    /* padding: 10px; */
+}
+
+.s-2 .wrap {
+    min-height: 200px;
+}
+
+/* End of section #2 */
+
+/* section 3 - المساعد الالكترونى */
+.s-3 {
+    min-height: 60vh;
+    background-image: url(../assets/117319673_1023588028098237_4527082381331571325_n.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+    color: white;
+}
+
+.s-3 img {
+    width: 35px;
+    height: auto;
+}
+
+/* end of section 3 - المساعد الالكترونى */
+
+/* section #4 - teacher  */
+
+.s-4 {
+    min-height: 800px;
+    background-image: linear-gradient(17deg, #36bef2, #179ad2 76%);
+}
+
+.s-4 .icons {
+    padding-top: 100px;
+}
+
+
+.s-4 .itemm {
+    color: white;
+    text-align: right;
+    padding-left: 25px;
+    margin-top: 4rem;
+}
+
+.s-4 .itemm img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.s-4 .itemm p {
+    font-size: smaller;
+}
+
+.s-4 .download {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.s-4 .download img {
+    height: 35px;
+    width: auto;
+}
+
+/* End of section #4 - teacher  */
+
+/* Section #5  */
+.s-5 {
+    min-height: 60vh;
+    background-image: url(../assets/mob-in-hand.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+    color: white;
+}
+
+.s-5 img {
+    width: 35px;
+    height: auto;
+}
+
+/* End Section #5  */
+
+/* section #6 */
+
+.s-6 {
+    min-height: 800px;
+    background-image: linear-gradient(17deg, #36bef2, #179ad2 76%);
+}
+
+.s-6 .icons {
+    padding-top: 100px;
+}
+
+
+.s-6 .itemm {
+    color: white;
+    text-align: right;
+    padding-left: 25px;
+    margin-top: 4rem;
+}
+
+.s-6 .itemm img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.s-6 .itemm p {
+    font-size: smaller;
+}
+
+.s-4 .download,
+.s-6 .download {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.s-4 .download img,
+.s-6 .download img {
+    height: 35px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.s-4 .download button,
+.s-6 .download button {
+    background-image: linear-gradient(82deg, #5e6fdf 6%, #2edfe5 94%);
+    border: none;
+    color: white;
+    width: 250px;
+    border-radius: 30px;
+    border: 1px solid blueviolet;
+}
+
+/* End of section #6 */
+
+/* section #7 */
+.s-7 img {
+    text-align: left;
+}
+
+.s-7 {
+    min-height: 30vh;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.s-7 .wrap {
+    min-height: 150px;
+}
+
+/* End of section #7 */
+
+/* section #8 */
+.s-8 img {
+    text-align: left;
+}
+
+.s-8 {
+    min-height: 30vh;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-image: linear-gradient(31deg, #36bef2, #179ad2 58%);
+    color: white;
+}
+
+.s-8 .wrap {
+    min-height: 150px;
+}
+
+/* End of section #8 */
+
+/* footer */
+footer {
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f6f5f5;
+    text-align: center;
+}
+
+footer .footer-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer h3 span {
+    color: #179ad2;
+}
+
+/* End of footer */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* section #1 */
+    .cover {
+        padding-top: 6vh;
+    }
+
+    .cover img {
+        margin-top: 60px;
+    }
+
+    /* end of section #1 */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

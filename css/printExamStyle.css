@@ -1,0 +1,40 @@
+@media print {
+    .shadow {
+        box-shadow: none !important;
+    }
+
+    .dontPrint,
+    header,
+    footer,
+    button,
+    .btn,
+    .sidebar,
+    .topbar {
+        display: none;
+    }
+
+    .eaxmtitle {
+        justify-content: center !important;
+        margin: 3rem;
+    }
+
+    .alert-success,
+    .alert {
+        color: black;
+        font-weight: normal;
+        border: none !important;
+        background-color: transparent;
+    }
+
+    .row {
+        color: black !important;
+    }
+
+    .printable {
+        display: block;
+    }
+}
+
+.printable {
+    display: none;
+}

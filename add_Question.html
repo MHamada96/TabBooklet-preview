@@ -14,22 +14,8 @@
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     rel="stylesheet">
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
-
-  <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.16/dist/summernote-bs4.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.16/dist/summernote-bs4.min.js"></script>
-
-
   <!-- Custom styles for this template-->
+  <link href="vendor/summernote-bs4/summernote-bs4.min.css" rel="stylesheet">
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
@@ -55,19 +41,11 @@
       <!-- Sidebar -->
       <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion list-unstyled" id="accordionSidebar">
 
-        <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-          <div class="sidebar-brand-icon rotate-15">
-            <i class="fas fa-file-alt"></i>
-          </div>
-          <div class="sidebar-brand-text mx-3">تااااب بوكليت</div>
-        </a>
-
         <!-- Divider -->
         <hr class="sidebar-divider my-0">
 
         <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
+        <li class="nav-item ">
           <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>لوحة التحكم - الصفحة الرئيسية</span></a>
@@ -91,7 +69,7 @@
         </li>
         <hr class="sidebar-divider my-0">
 
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="Quests.html">
             <i class="fas fa-fw fa-table"></i>
             <span>بنك الاسئلة العام</span></a>
@@ -113,47 +91,6 @@
         <hr class="sidebar-divider my-0">
       </ul><!-- End of Sidebar -->
       <!-- End of Sidebar -->
-
-
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0">
-
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>لوحة التحكم - الصفحة الرئيسية</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link" href="teachers.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>المعلمين</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="students.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>الطلاب</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Quests.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>بنك الاسئلة العام</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="exams.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>الامتحانات </span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="payments.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>المصروفات وعمليات الدفع </span></a>
-      </li>
     </ul>
     <!-- End of Sidebar -->
 
@@ -518,231 +455,18 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/Popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
 
-    <script>
-      (function ($) {
-        $.extend($.summernote.lang, {
-          'ar-AR': {
-            font: {
-              bold: 'عريض',
-              italic: 'مائل',
-              underline: 'تحته خط',
-              clear: 'مسح التنسيق',
-              height: 'إرتفاع السطر',
-              name: 'الخط',
-              strikethrough: 'فى وسطه خط',
-              subscript: 'مخطوطة',
-              superscript: 'حرف فوقي',
-              size: 'الحجم',
-            },
-            image: {
-              image: 'صورة',
-              insert: 'إضافة صورة',
-              resizeFull: 'الحجم بالكامل',
-              resizeHalf: 'تصغير للنصف',
-              resizeQuarter: 'تصغير للربع',
-              floatLeft: 'تطيير لليسار',
-              floatRight: 'تطيير لليمين',
-              floatNone: 'ثابته',
-              shapeRounded: 'الشكل: تقريب',
-              shapeCircle: 'الشكل: دائرة',
-              shapeThumbnail: 'الشكل: صورة مصغرة',
-              shapeNone: 'الشكل: لا شيء',
-              dragImageHere: 'إدرج الصورة هنا',
-              dropImage: 'إسقاط صورة أو نص',
-              selectFromFiles: 'حدد ملف',
-              maximumFileSize: 'الحد الأقصى لحجم الملف',
-              maximumFileSizeError: 'تم تجاوز الحد الأقصى لحجم الملف',
-              url: 'رابط الصورة',
-              remove: 'حذف الصورة',
-              original: 'Original',
-            },
-            video: {
-              video: 'فيديو',
-              videoLink: 'رابط الفيديو',
-              insert: 'إدراج الفيديو',
-              url: 'رابط الفيديو',
-              providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ou Youku)',
-            },
-            link: {
-              link: 'رابط',
-              insert: 'إدراج',
-              unlink: 'حذف الرابط',
-              edit: 'تعديل',
-              textToDisplay: 'النص',
-              url: 'مسار الرابط',
-              openInNewWindow: 'فتح في نافذة جديدة',
-            },
-            table: {
-              table: 'جدول',
-              addRowAbove: 'إضافة سطر أعلاه',
-              addRowBelow: 'إضافة سطر أدناه',
-              addColLeft: 'إضافة عمود قبله',
-              addColRight: 'إضافة عمود بعده',
-              delRow: 'حذف سطر',
-              delCol: 'حذف عمود',
-              delTable: 'حذف الجدول',
-            },
-            hr: {
-              insert: 'إدراج خط أفقي',
-            },
-            style: {
-              style: 'تنسيق',
-              p: 'عادي',
-              blockquote: 'إقتباس',
-              pre: 'شفيرة',
-              h1: 'عنوان رئيسي 1',
-              h2: 'عنوان رئيسي 2',
-              h3: 'عنوان رئيسي 3',
-              h4: 'عنوان رئيسي 4',
-              h5: 'عنوان رئيسي 5',
-              h6: 'عنوان رئيسي 6',
-            },
-            lists: {
-              unordered: 'قائمة مُنقطة',
-              ordered: 'قائمة مُرقمة',
-            },
-            options: {
-              help: 'مساعدة',
-              fullscreen: 'حجم الشاشة بالكامل',
-              codeview: 'شفيرة المصدر',
-            },
-            paragraph: {
-              paragraph: 'فقرة',
-              outdent: 'محاذاة للخارج',
-              indent: 'محاذاة للداخل',
-              left: 'محاذاة لليسار',
-              center: 'توسيط',
-              right: 'محاذاة لليمين',
-              justify: 'ملئ السطر',
-            },
-            color: {
-              recent: 'تم إستخدامه',
-              more: 'المزيد',
-              background: 'لون الخلفية',
-              foreground: 'لون النص',
-              transparent: 'شفاف',
-              setTransparent: 'بدون خلفية',
-              reset: 'إعادة الضبط',
-              resetToDefault: 'إعادة الضبط',
-              cpSelect: 'اختار',
-            },
-            shortcut: {
-              shortcuts: 'إختصارات',
-              close: 'غلق',
-              textFormatting: 'تنسيق النص',
-              action: 'Action',
-              paragraphFormatting: 'تنسيق الفقرة',
-              documentStyle: 'تنسيق المستند',
-              extraKeys: 'أزرار إضافية',
-            },
-            help: {
-              'insertParagraph': 'إدراج فقرة',
-              'undo': 'تراجع عن آخر أمر',
-              'redo': 'إعادة تنفيذ آخر أمر',
-              'tab': 'إزاحة (تاب)',
-              'untab': 'سحب النص باتجاه البداية',
-              'bold': 'تنسيق عريض',
-              'italic': 'تنسيق مائل',
-              'underline': 'تنسيق خط سفلي',
-              'strikethrough': 'تنسيق خط متوسط للنص',
-              'removeFormat': 'إزالة التنسيقات',
-              'justifyLeft': 'محاذاة لليسار',
-              'justifyCenter': 'محاذاة توسيط',
-              'justifyRight': 'محاذاة لليمين',
-              'justifyFull': 'محاذاة كاملة',
-              'insertUnorderedList': 'قائمة منقّطة',
-              'insertOrderedList': 'قائمة مرقّمة',
-              'outdent': 'إزاحة للأمام على الفقرة الحالية',
-              'indent': 'إزاحة للخلف على الفقرة الحالية',
-              'formatPara': 'تغيير التنسيق للكتلة الحالية إلى فقرة',
-              'formatH1': 'تغيير التنسيق للكتلة الحالية إلى ترويسة 1',
-              'formatH2': 'تغيير التنسيق للكتلة الحالية إلى ترويسة 2',
-              'formatH3': 'تغيير التنسيق للكتلة الحالية إلى ترويسة 3',
-              'formatH4': 'تغيير التنسيق للكتلة الحالية إلى ترويسة 4',
-              'formatH5': 'تغيير التنسيق للكتلة الحالية إلى ترويسة 5',
-              'formatH6': 'تغيير التنسيق للكتلة الحالية إلى ترويسة 6',
-              'insertHorizontalRule': 'إدراج خط أفقي',
-              'linkDialog.show': 'إظهار خصائص الرابط',
-            },
-            history: {
-              undo: 'تراجع',
-              redo: 'إعادة',
-            },
-            specialChar: {
-              specialChar: 'محارف خاصة',
-              select: 'اختر المحرف الخاص',
-            },
-          },
-        });
-      })(jQuery);
+    <!-- Page level custom scripts -->
+    <script src="vendor/summernote-bs4/summernote-bs4.min.js"></script>
+    <script src="js/add_Question.js"> </script>
 
-      $('#summernote1').summernote({
-        placeholder: "",
-        tabsize: 5,
-        height: 100,
-        lang: 'ar-AR'
-      });
-      $('#summernote2').summernote({
-        placeholder: "",
-        tabsize: 5,
-        height: 100,
-        lang: 'ar-AR'
-      });
-      console.log("Hello");
-
-      let all_notes = Array.from(document.querySelectorAll(".summernote"));
-
-      // console.log(all_notes);
-
-      all_notes.forEach(note => {
-        $(note).summernote({
-          placeholder: "",
-          tabsize: 5,
-          height: 100,
-          lang: 'ar-AR'
-        });
-      });
-
-
-
-
-      let Q_MCQ = document.querySelector("#mcq");
-      let Q_answer = document.querySelector("#answer");
-      let Q_TF = document.querySelector("#tf");
-      let Choose_Q = document.querySelector("#q_alert");
-      let qType = document.querySelector("#qType");
-      let arr = [Q_MCQ, Q_TF, Q_answer, Choose_Q];
-
-      arr.forEach(element => {
-        $(element).addClass("d-none");
-      });
-      Choose_Q.classList.remove("d-none");
-
-      qType.addEventListener("change", Change_q_Type);
-
-      function Change_q_Type() {
-        let val = qType.value;
-        arr.forEach(element => {
-          $(element).addClass("d-none");
-          console.log("hello!! ", element);
-        });
-        if (val == '1') {
-          Q_MCQ.classList.remove("d-none");
-        } else if (val == '2') {
-          Q_answer.classList.remove("d-none");
-        } else if (val == '3') {
-          Q_TF.classList.remove("d-none");
-        } else {
-          Choose_Q.classList.remove("d-none");
-        }
-
-      }
-    </script>
 </body>
 
 </html>
